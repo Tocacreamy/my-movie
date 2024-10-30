@@ -1,3 +1,7 @@
+# my-movie
+i want to watch a movie!
+React - Next js - Tailwindcss - shadcn
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
