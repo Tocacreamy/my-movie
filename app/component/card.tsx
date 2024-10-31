@@ -1,6 +1,8 @@
 'use client';
 import { Button } from '@/components/ui/button';
 import * as React from 'react';
+import Link  from 'next/link';
+
 
 export function Card() {
     // State to control opacity
@@ -32,7 +34,9 @@ export function Card() {
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem molestias error obcaecati!</p>
                 </div>
                 <div className='m-auto my-3'>
-                    <Button variant="outline" className='transition-all ease-in-out bg-red-500 text-white hover:border-red-500 hover:text-red-500 hover:font-bold'>Watch</Button>
+                    <Link href='/stream'>
+                        <Button variant="outline" className='transition-all ease-in-out bg-red-500 text-white hover:border-red-500 hover:text-red-500 hover:font-bold' >Watch</Button>
+                    </Link>
                 </div>
             </div>
         </div>
